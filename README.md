@@ -12,3 +12,10 @@ This repository contains my submission for the Fume parsing and data extraction 
 
 1. Install dependencies:
    ```bash
+   pip install -r pipeline/requirements.txt
+   ```
+2. Run the extraction pipeline:
+   ```bash
+   python pipeline/run_pipeline.py
+   ```
+3. Run audits to verify the generated data:
