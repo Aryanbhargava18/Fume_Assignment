@@ -19,3 +19,11 @@ This repository contains my submission for the Fume parsing and data extraction 
    python pipeline/run_pipeline.py
    ```
 3. Run audits to verify the generated data:
+   ```bash
+   python scripts/audit.py
+   ```
+4. To view the dashboard, open `docs/index.html` in your browser.
+
+## Documentation
+
+Full architectural specifications, schema requirements, and hallucination scenarios can be found in the `docs_zip/` folder.
